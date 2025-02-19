@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    font-size: 16px;
+    color: #777;
+}
+
+.contact a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section .job {
+    margin-bottom: 20px;
+}
+
+.job .role {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.job ul {
+    margin-left: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #005f8f;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
